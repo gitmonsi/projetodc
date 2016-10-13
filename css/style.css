@@ -82,7 +82,13 @@ li{
 	border-radius: 4px 4px 0px 0px;
 	box-shadow: 0 0 6px white inset;
 	list-style: none;
+	font-size: 12px;
+	font-family: 'Days One', sans-serif;
 }
+
+
+/* nav ul li ul li {...} */
+
 
 section{
 	width: 695px;
@@ -166,3 +172,54 @@ p{
 
 /*SEUDO CLASES*/
 
+	.nav1 > li {
+				float:left;
+			}
+			
+			.navi li a {
+				background-color: rgba(150, 150, 150, 0.5);
+				color:#000;
+				text-decoration:none;
+				padding:5px 5px;
+				display:block;
+			}
+			
+			.navi li a:hover {
+				background-color:#434343;
+			}
+			
+			.navi li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.navi li:hover > ul {
+				display:block;
+				position: absolute;
+			}
+			
+			.navi li ul li {
+				position:relative;
+			}
+			
+			.navi li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+
+
+ul li ul{
+	float:left;
+	list-style-type: none;
+	padding: 10px;
+	background: rgba(30, 50, 180, 0.5); 
+	margin: 2px 3px 0px 0px;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0 0 6px white inset;
+	list-style: none;
+	display: none;
+	position: absolute;
+	font-size: 12px;
+	font-family: 'Days One', sans-serif;
+}
