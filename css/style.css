@@ -177,7 +177,7 @@ p{
 			}
 			
 			.navi li a {
-				background-color: rgba(150, 150, 150, 0.5);
+				background-color: rgba(150, 150, 150, 0.5); /*color:rgba(150, 150, 150, 0.5); color fondo boton inactivo*/
 				color:#000;
 				text-decoration:none;
 				padding:5px 5px;
@@ -185,7 +185,7 @@ p{
 			}
 			
 			.navi li a:hover {
-				background-color:#434343;
+				background-color: rgba(135, 160, 100, 1); /*color:#434343; color fondo boton sobre*/
 			}
 			
 			.navi li ul {
@@ -213,7 +213,7 @@ ul li ul{
 	float:left;
 	list-style-type: none;
 	padding: 10px;
-	background: rgba(170, 185, 100, 0.5); 
+	background: rgba(135, 160, 100, 0.4); /*rgba(170, 185, 100, 0.5);  color fondo area botones submenu*/
 	margin: 2px 3px 0px 0px;
 	border-radius: 5px 5px 5px 5px;
 	box-shadow: 0 0 6px white inset;
